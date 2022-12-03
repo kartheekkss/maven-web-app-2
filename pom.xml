@@ -25,6 +25,21 @@
       <version>3.8.1</version>
     </dependency>
   </dependencies>
+	<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Releases Nexus Repository</name>
+	      <url>http://65.2.144.251:8081/repository/Flipkart-ktt-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Mithun Technologies Snapshot Nexus Repository </name>
+	      <url>http://65.2.144.251:8081/repository/Flipkart-ktt-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <finalName>01-maven-web-app</finalName>
     <plugins>
