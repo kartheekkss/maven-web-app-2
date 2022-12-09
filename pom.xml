@@ -32,13 +32,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Releases Nexus Repository</name>
-	      <url>http://35.154.146.221:8081/repository/Flipkart-QA-release/</url>
+	      <url>http://65.2.11.63:8081/repository/Ecommerce-maven-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Mithun Technologies Snapshot Nexus Repository </name>
-	      <url>http://35.154.146.221:8081/repository/Flipkart-QA-snapshot//</url>
+	      <url>http://65.2.11.63:8081/repository/Ecommerce-maven-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
